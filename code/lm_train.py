@@ -84,3 +84,10 @@ def lm_train(data_dir, language, fn_LM):
 
     return language_model
 
+#Main to generate the LM that will be tested in task 3
+if __name__ == '__main__':
+    lm_e = lm_train('/u/cs401/A2_SMT/data/Hansard/Training/', 'e',
+                  'task2_e')
+    lm_f = lm_train('/u/cs401/A2_SMT/data/Hansard/Training/', 'f',
+                  'task2_f')    
+

@@ -62,10 +62,3 @@ def log_prob(sentence, LM, smoothing=False, delta=0, vocabSize=0):
     for prob in probs:
         log_prob = log_prob + math.log2(prob)
     return log_prob
-if __name__ == "__main__":
-    sentence = "The polling booths are now open."
-    sentence = preprocess(sentence, 'e')
-    with open('C:/Users/Admin/401a2/a2401/out.pickle', 'rb') as handle:
-        LM = pickle.load(handle)
-	
-    #log_prob(sentence, LM)

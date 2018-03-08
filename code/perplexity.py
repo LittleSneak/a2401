@@ -37,3 +37,23 @@ def preplexity(LM, test_dir, language, smoothing = False, delta = 0):
         if N > 0:
             pp = 2**(-pp/N)
     return pp
+
+#Testing the LM from task 2 on different values of delta
+if __name__ == '__main__':
+    print("English LM scores LM: ")
+    with open('task2_e.pickle', 'rb') as handle:
+        test_LM = pickle.load(handle)
+    print("Delta = 0: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "e", smoothing = False, delta = 0))
+    print("Delta = 0.1: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "e", smoothing = True, delta = 0.1))
+    print("Delta = 0.3: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "e", smoothing = True, delta = 0.3))
+    print("Delta = 0.5: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "e", smoothing = True, delta = 0.5))
+    print("Delta = 0.9: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "e", smoothing = True, delta = 0.9))
+    
+    print("Testing french LM: ")
+    with open('task2_f.pickle', 'rb') as handle:
+        test_LM = pickle.load(handle)
+    print("Delta = 0: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "f", smoothing = False, delta = 0))
+    print("Delta = 0.1: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "f", smoothing = True, delta = 0.1))
+    print("Delta = 0.3: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "f", smoothing = True, delta = 0.3))
+    print("Delta = 0.5: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "f", smoothing = True, delta = 0.5))
+    print("Delta = 0.9: ", preplexity(test_LM, "C:/Users/Admin/401a2/a2401/Hansard/Testing/", "f", smoothing = True, delta = 0.9))    

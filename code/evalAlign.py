@@ -155,3 +155,7 @@ def evalAlign(iterations):
     
     for x in range(0, 25):
         print("Sentence " + str(x + 1) + " :" , scores1[x], scores2[x], scores3[x], scores4[x])
+        
+#Main for getting the BLEU scores for task 5
+if __name__ == '__main__':
+    evalAlign(5)
