@@ -10,3 +10,5 @@ Delta = 0.1:  1.117516299442948
 Delta = 0.3:  1.128346208270782
 Delta = 0.5:  1.1345380094620996
 Delta = 0.9:  1.14263004363267
+
+It appears that the log probabilities increase as the given delta values increase. This also means that the probabilities for the sentences decreases with larger delta values.
