@@ -1,0 +1,81 @@
+Generating LM and AM for 1k
+Generating LM
+Generating AM
+Reading sentences in...
+Reading complete
+Initializing...
+Initializing complete
+Iterating...
+Iteration 1 complete
+Iteration 2 complete
+Iteration 3 complete
+Iteration 4 complete
+Iteration 5 complete
+Generating LM and AM for 10k
+Generating LM
+Generating AM
+Reading sentences in...
+Reading complete
+Initializing...
+Initializing complete
+Iterating...
+Iteration 1 complete
+Iteration 2 complete
+Iteration 3 complete
+Iteration 4 complete
+Iteration 5 complete
+Generating LM and AM for 15k
+Generating LM
+Generating AM
+Reading sentences in...
+Reading complete
+Initializing...
+Initializing complete
+Iterating...
+Iteration 1 complete
+Iteration 2 complete
+Iteration 3 complete
+Iteration 4 complete
+Iteration 5 complete
+Generating LM and AM for 30k
+Generating LM
+Generating AM
+Reading sentences in...
+Reading complete
+Initializing...
+Initializing complete
+Iterating...
+Iteration 1 complete
+Iteration 2 complete
+Iteration 3 complete
+Iteration 4 complete
+Iteration 5 complete
+Calculating scores for 1k
+Calculating scores for 10k
+Calculating scores for 15k
+Calculating scores for 30k
+Sentence 1 : [0.4706, 0.1715, 0.0] [0.5294, 0.1819, 0.0] [0.4706, 0.1715, 0.0] [0.4706, 0.1715, 0.0]
+Sentence 2 : [0.5556, 0.2635, 0.0] [0.4444, 0.2357, 0.0] [0.5556, 0.2635, 0.0] [0.4444, 0.2357, 0.0]
+Sentence 3 : [0.4615, 0.2774, 0.0] [0.6154, 0.3203, 0.0] [0.4615, 0.2774, 0.0] [0.5385, 0.2996, 0.0]
+Sentence 4 : [0.3571, 0.1657, 0.0] [0.5, 0.1961, 0.0] [0.5, 0.1961, 0.0] [0.5, 0.1961, 0.0]
+Sentence 5 : [0.4615, 0.1961, 0.0] [0.3077, 0.1601, 0.0] [0.3077, 0.1601, 0.0] [0.3077, 0.1601, 0.0]
+Sentence 6 : [0.7, 0.5578, 0.4269] [0.6, 0.4472, 0.3684] [0.6, 0.4472, 0.3684] [0.6, 0.4472, 0.3684]
+Sentence 7 : [0.3077, 0.1601, 0.0] [0.3846, 0.179, 0.0] [0.3846, 0.179, 0.0] [0.5385, 0.2118, 0.0]
+Sentence 8 : [0.5, 0.378, 0.0] [0.625, 0.5175, 0.3547] [0.625, 0.5175, 0.3547] [0.625, 0.5175, 0.3547]
+Sentence 9 : [0.25, 0.0, 0.0] [0.375, 0.0, 0.0] [0.5, 0.0, 0.0] [0.375, 0.0, 0.0]
+Sentence 10 : [0.25, 0.0, 0.0] [0.4167, 0.0, 0.0] [0.4167, 0.0, 0.0] [0.4167, 0.0, 0.0]
+Sentence 11 : [0.4615, 0.1961, 0.0] [0.4615, 0.1961, 0.0] [0.6923, 0.3397, 0.0] [0.6154, 0.3203, 0.0]
+Sentence 12 : [0.375, 0.2236, 0.0] [0.4375, 0.2415, 0.0] [0.4375, 0.2415, 0.0] [0.4375, 0.2415, 0.0]
+Sentence 13 : [0.2715, 0.1652, 0.0] [0.4524, 0.2133, 0.0] [0.4524, 0.2133, 0.0] [0.4524, 0.2133, 0.0]
+Sentence 14 : [0.3889, 0.2139, 0.1419] [0.6667, 0.343, 0.1945] [0.6111, 0.3284, 0.1889] [0.5556, 0.3131, 0.183]
+Sentence 15 : [0.3664, 0.2697, 0.1738] [0.4275, 0.2913, 0.183] [0.4886, 0.3114, 0.1913] [0.4275, 0.2913, 0.183]
+Sentence 16 : [0.4167, 0.3371, 0.2248] [0.5, 0.3693, 0.2389] [0.5, 0.3693, 0.2389] [0.5, 0.3693, 0.2389]
+Sentence 17 : [0.4, 0.2981, 0.2231] [0.4, 0.2981, 0.2231] [0.4, 0.2981, 0.2231] [0.5, 0.4082, 0.3467]
+Sentence 18 : [0.5493, 0.3403, 0.0] [0.5493, 0.3403, 0.0] [0.5493, 0.3403, 0.0] [0.5493, 0.3403, 0.0]
+Sentence 19 : [0.3077, 0.1601, 0.0] [0.5385, 0.3669, 0.2304] [0.3077, 0.1601, 0.0] [0.3846, 0.179, 0.0]
+Sentence 20 : [0.5429, 0.4047, 0.2646] [0.5429, 0.4047, 0.2646] [0.6334, 0.5047, 0.3066] [0.5429, 0.4047, 0.2646]
+Sentence 21 : [0.625, 0.4226, 0.0] [0.875, 0.6124, 0.3969] [0.875, 0.6124, 0.3969] [0.75, 0.4629, 0.0]
+Sentence 22 : [0.7273, 0.4671, 0.2894] [0.9091, 0.603, 0.3431] [0.9091, 0.603, 0.3431] [0.9091, 0.6742, 0.4657]
+Sentence 23 : [0.4286, 0.3145, 0.202] [0.5, 0.3397, 0.2126] [0.5714, 0.3631, 0.2223] [0.5, 0.3397, 0.2126]
+Sentence 24 : [0.5, 0.297, 0.1767] [0.4444, 0.2801, 0.1699] [0.5, 0.343, 0.245] [0.3889, 0.2139, 0.0]
+Sentence 25 : [0.375, 0.2315, 0.0] [0.375, 0.2315, 0.0] [0.375, 0.2315, 0.0] [0.375, 0.2315, 0.0]
